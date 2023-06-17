@@ -1,0 +1,21 @@
+{
+    "exclude": ["node_modules"],
+    "include": ["**/*.ts", "**/*.tsx"],
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "baseUrl": ".",
+      "outDir": "./dist/",
+      "paths": {
+        "@types/assets*": ["assets/*"]
+      },
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "module": "esnext",
+      "target": "es5",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "esModuleInterop": true
+    }
+  }
+  
